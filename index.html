@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <title>Local weather</title>
+    <!--link to main.css file-->
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+        <div class="alert alert-danger">
+                <strong>Sorry!</strong> unable to fetch location!
+              </div>
+    <div class="jumbotron jumbotron-fluid mx-auto mt-5 border border-info rounded">
+        <div class="btn-group btn-group-toggle float-right" data-toggle="buttons">
+            <button type="button" class="btn btn-outline-warning">c</button>
+            <button type="button" class="btn btn-outline-info ">F</button>
+        </div>
+        <div class="container ">
+          <img id="img-weath" src="icons8.png" alt="icons">
+            <h4 align="center" id="city"class="display-3 ml-4"></h4>
+         <h2 align="center"><strong id="temp"></strong></h2>
+          <h2 align="center" id="desc"></h3>
+         </div>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="start.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+  </body>
+</html>
